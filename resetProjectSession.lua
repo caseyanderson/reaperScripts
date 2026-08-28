@@ -18,6 +18,14 @@ for index = (markerCount + regionCount) - 1, 0, -1 do
     end
 end
 
+reaper.GetSet_LoopTimeRange(
+    true,
+    false,
+    0,
+    0,
+    false
+)
+
 reaper.PreventUIRefresh(-1)
 reaper.UpdateTimeline()
 
