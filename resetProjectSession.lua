@@ -30,7 +30,7 @@ reaper.PreventUIRefresh(-1)
 reaper.UpdateTimeline()
 
 reaper.Undo_EndBlock(
-    "Remove all project markers",
+    "Reset project markers and time selection",
     -1
 )
 
